@@ -1,7 +1,7 @@
 {
   "schema": "ze.update-manifest.v3",
-  "manifest_id": "update-local-voice-studio-1",
-  "manifest_version": 1,
+  "manifest_id": "update-local-voice-studio-2",
+  "manifest_version": 2,
   "scope": {
     "series_id": "el",
     "organization_id": "independent-publisher",
@@ -9,36 +9,36 @@
   },
   "channel": "preview",
   "state": "active",
-  "published_at": "2026-11-03T08:06:35.347337+00:00",
-  "expires_at": "2027-02-01T08:06:35.347337+00:00",
+  "published_at": "2026-11-03T09:04:22.700959+00:00",
+  "expires_at": "2027-02-01T09:04:22.700959+00:00",
   "component": {
     "component_id": "local-voice-studio",
     "kind": "workspace",
     "product_uid": "skill_9d93f9a3b9d04b869c87a13f90d1021b",
-    "version": "0.2.0",
-    "build_number": 8,
+    "version": "0.2.1",
+    "build_number": 9,
     "severity": "recommended",
     "release_notes": {
-      "title": "0.2.0 (8)",
-      "summary": "Vocalier 0.2.0（build 8）Mac 公开预览版。\n\n新增应用内“通用场景配音 Demo”：3 个参考音色、4 条真实本地模型成品，覆盖英文教程、生活旁白、广告口播和中文产品介绍。App 自带运行环境及示例；首次启动可选择模型并自动下载，也可跳过模型直接试听已有音频。\n\n支持 Apple Silicon / M 系列 Mac，声明 macOS 14+。此包为 ad-hoc 签名、未经过 Apple 公证；最低系统实机验收和人工音色听感接受仍待完成。模型权重不包含在下载中，首次安装模型需要网络。用户工程与模型位于 App 外，手动更新应用不会替换工程。\n\n本次只发布 GitHub 安装包，未变更服务器试听站。"
+      "title": "0.2.1 (9)",
+      "summary": "Vocalier 0.2.1（build 9）Mac 预览修复版。\n\n修复：本机已经安装模型，打开应用仍反复显示安装配置。现在会核对当前模型完整性回执及 Vocalier 的使用引用；已有有效安装且设备选择未决时，自动补记已启用与配置完成状态，重开沿用记录，无需重新下载。明确停用的选择保持；只有其他工具的模型或不完整文件不自动启用。\n\n已有模型需要选择时，使用“启用并继续”和“本机模型已安装”的说明。保留应用内通用 Demo：3 个参考音色、4 条本地生成成品，覆盖教程、生活旁白、广告口播与中文产品介绍。\n\n本包已用已有 2.34 GiB 安装验证两次后台重启、选择记录保持及真实本地生成／WAV 回读，原模型安装回执未改变。\n\nApple Silicon / M 系列 Mac，声明 macOS 14+；ad-hoc 签名、未经过 Apple 公证，最低系统实机和人工音色听感接受仍待完成。更新请下载完整 App 手动替换；应用内更新尚未启用。用户工程和模型保留在 App 外。本次未变更服务器。"
     }
   },
   "rollout": {
     "percentage": 100,
-    "seed": "vocalier/v0.2.0-build.8-macos-arm64"
+    "seed": "vocalier/v0.2.1-build.9-macos-arm64"
   },
   "artifact": {
     "platform": "darwin",
     "architecture": "arm64",
     "format": "dmg",
-    "immutable_url": "https://github.com/EspalierLin/devtools-releases/releases/download/vocalier%2Fv0.2.0-build.8-macos-arm64/Vocalier-0.2.0-8-macOS-arm64.dmg",
-    "size_bytes": 292271890,
-    "sha256": "sha256:8e0b40f3f738a22abc4b2eb469bd7a9632863436e1dcdc74b2ed5a87e042d74d",
+    "immutable_url": "https://github.com/EspalierLin/devtools-releases/releases/download/vocalier%2Fv0.2.1-build.9-macos-arm64/Vocalier-0.2.1-9-macOS-arm64.dmg",
+    "size_bytes": 293197316,
+    "sha256": "sha256:1f2c0124d444d48986f8ec5fe7b1b9b584b1f5ba29ef6969b12ef2af102b83a3",
     "signature": {
       "algorithm": "ed25519",
       "key_id": "publisher-macos-1",
       "public_key_digest": "sha256:9d7fdf8057a0fd73678b43214d2179aeb6c3d96de4102307ab3dc314079a1c00",
-      "signature_digest": "sha256:8b36b5e400edf8608f9620626e4ec7f2f211aac4080d0d55b6ff5a10ef57e9ff"
+      "signature_digest": "sha256:be09232fd2f5fe56efac50729ad5994403dc2852059732b6033e3de30e5e9233"
     }
   },
   "compatibility": {},
@@ -54,7 +54,7 @@
     "algorithm": "ed25519",
     "key_id": "publisher-macos-1",
     "public_key_digest": "sha256:9d7fdf8057a0fd73678b43214d2179aeb6c3d96de4102307ab3dc314079a1c00",
-    "payload_digest": "sha256:b53eeee7fce7cc3399d23fc4618b1d5d2e6eadfaf6dd9b09dc637687654636c5",
-    "value": "QPhYAk0gPqnKbaMkBK3Gnpom5+TmZVxhGxSV8GviDD55aofjjUT5yVhrNfzs2JyUnh1Il6ffCJRS+GLUEXLxDg=="
+    "payload_digest": "sha256:cbe864702b512fdb463b193ee61dbdd809f1017342b76e27bd74457ac1f34a87",
+    "value": "M0Y7OXFw72Tr0R1wv/7Fo98gcjGB0oIpvMo9pUJMm4nbG6g16nX+ZhlCFj0hFAe9RLK92RZPG6JjiHK5cK7KCA=="
   }
 }
