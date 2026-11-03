@@ -8,7 +8,16 @@
 
 <!-- release-downloads:start -->
 
-安装包尚未发布。
+| 系统 / 组件 | 版本 | 下载 |
+|---|---|---|
+| Mac · Apple Silicon / M 系列（macOS 14.0+） | 0.2.0（8） · 预览版 | [下载安装包](https://github.com/EspalierLin/devtools-releases/releases/download/vocalier%2Fv0.2.0-build.8-macos-arm64/Vocalier-0.2.0-8-macOS-arm64.dmg) |
+
+<details>
+<summary>下载文件校验（SHA-256）</summary>
+
+- Mac · Apple Silicon / M 系列（macOS 14.0+）：`8e0b40f3f738a22abc4b2eb469bd7a9632863436e1dcdc74b2ed5a87e042d74d`
+
+</details>
 
 <!-- release-downloads:end -->
 

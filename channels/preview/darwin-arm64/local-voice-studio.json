@@ -1,0 +1,60 @@
+{
+  "schema": "ze.update-manifest.v3",
+  "manifest_id": "update-local-voice-studio-1",
+  "manifest_version": 1,
+  "scope": {
+    "series_id": "el",
+    "organization_id": "independent-publisher",
+    "target_id": "local-voice-studio-public"
+  },
+  "channel": "preview",
+  "state": "active",
+  "published_at": "2026-11-03T08:06:35.347337+00:00",
+  "expires_at": "2027-02-01T08:06:35.347337+00:00",
+  "component": {
+    "component_id": "local-voice-studio",
+    "kind": "workspace",
+    "product_uid": "skill_9d93f9a3b9d04b869c87a13f90d1021b",
+    "version": "0.2.0",
+    "build_number": 8,
+    "severity": "recommended",
+    "release_notes": {
+      "title": "0.2.0 (8)",
+      "summary": "Vocalier 0.2.0（build 8）Mac 公开预览版。\n\n新增应用内“通用场景配音 Demo”：3 个参考音色、4 条真实本地模型成品，覆盖英文教程、生活旁白、广告口播和中文产品介绍。App 自带运行环境及示例；首次启动可选择模型并自动下载，也可跳过模型直接试听已有音频。\n\n支持 Apple Silicon / M 系列 Mac，声明 macOS 14+。此包为 ad-hoc 签名、未经过 Apple 公证；最低系统实机验收和人工音色听感接受仍待完成。模型权重不包含在下载中，首次安装模型需要网络。用户工程与模型位于 App 外，手动更新应用不会替换工程。\n\n本次只发布 GitHub 安装包，未变更服务器试听站。"
+    }
+  },
+  "rollout": {
+    "percentage": 100,
+    "seed": "vocalier/v0.2.0-build.8-macos-arm64"
+  },
+  "artifact": {
+    "platform": "darwin",
+    "architecture": "arm64",
+    "format": "dmg",
+    "immutable_url": "https://github.com/EspalierLin/devtools-releases/releases/download/vocalier%2Fv0.2.0-build.8-macos-arm64/Vocalier-0.2.0-8-macOS-arm64.dmg",
+    "size_bytes": 292271890,
+    "sha256": "sha256:8e0b40f3f738a22abc4b2eb469bd7a9632863436e1dcdc74b2ed5a87e042d74d",
+    "signature": {
+      "algorithm": "ed25519",
+      "key_id": "publisher-macos-1",
+      "public_key_digest": "sha256:9d7fdf8057a0fd73678b43214d2179aeb6c3d96de4102307ab3dc314079a1c00",
+      "signature_digest": "sha256:8b36b5e400edf8608f9620626e4ec7f2f211aac4080d0d55b6ff5a10ef57e9ff"
+    }
+  },
+  "compatibility": {},
+  "install": {
+    "restart": "required",
+    "safe_point": "no-unsaved-work",
+    "estimated_seconds": 60,
+    "migration_confirmation": "not-required",
+    "strategy": "manual-container"
+  },
+  "project_migrations": [],
+  "signature": {
+    "algorithm": "ed25519",
+    "key_id": "publisher-macos-1",
+    "public_key_digest": "sha256:9d7fdf8057a0fd73678b43214d2179aeb6c3d96de4102307ab3dc314079a1c00",
+    "payload_digest": "sha256:b53eeee7fce7cc3399d23fc4618b1d5d2e6eadfaf6dd9b09dc637687654636c5",
+    "value": "QPhYAk0gPqnKbaMkBK3Gnpom5+TmZVxhGxSV8GviDD55aofjjUT5yVhrNfzs2JyUnh1Il6ffCJRS+GLUEXLxDg=="
+  }
+}
